@@ -35,5 +35,3 @@ Shopsy is a simple e-commerce application built with React and React Router. The
 - **CSS**: For styling components.  
 
 ---  
-
-You can adjust this further to include specific details like API usage, backend setup, or deployment instructions if required.
