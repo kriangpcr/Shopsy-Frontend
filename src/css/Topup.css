@@ -1,0 +1,106 @@
+.Ssecblocg2{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.85);
+    width: 95%;
+    height: fit-content;
+    margin: 2%;
+    text-align: center;
+    border-radius: 40px;
+    padding-bottom: 57px;
+
+}
+.Balance{
+    background: linear-gradient(to right, #8ed47c, #508629);
+    height: fit-content;
+    text-align: left;
+    margin: 30px;
+    margin-top: 70px;
+    padding: 30px;
+    border-radius: 30px;
+}
+.MBalance{
+    font-weight: bold;
+    font-size: 20px;
+}
+.Money{
+    margin-top: 15px;
+    font-size: 60px;
+}
+.Balance1{
+    background-color: rgba(255, 255, 255, 0.85);
+    height: fit-content;
+    margin: 30px;
+    padding: 30px;
+    border-radius: 30px;
+}
+.Amount{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.TermMoney{
+    margin-top: 25px
+}
+.Term{
+    width: 50%;
+    padding: 10px;    
+}
+.choice{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+    
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1;
+    border-radius: 500px;
+    transition-property: background-color,border-color,color,box-shadow,filter;
+    transition-duration: .3s;
+    border: 1px solid transparent;
+    letter-spacing: 2px;
+    min-width: 130px;
+    text-transform: uppercase;
+    white-space: normal;
+    font-weight: 700;
+    text-align: center;
+    padding: 16px 14px 18px;
+    color: #fff;
+    background-color: #40a061;
+    height: 48px;
+    :hover{
+        background-color: #1db954;
+    }
+
+}
+.conti{
+    margin-top: 50px;
+    
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1;
+    border-radius: 20px;
+    transition-property: background-color,border-color,color,box-shadow,filter;
+    transition-duration: .3s;
+    border: none;
+    letter-spacing: 2px;
+    min-width: 160px;
+    text-transform: uppercase;
+    white-space: normal;
+    font-weight: 700;
+    text-align: center;
+    padding: 16px 14px 18px;
+    color: #616467;
+    background-color: rgba(154, 247, 123, 0.85);
+    height: 48px;
+    :hover{
+        color: #fff;
+        background-color: #424f5e;
+    }
+
+
+}
+/* rgba(255, 255, 255, 0.85); */

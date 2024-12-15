@@ -1,0 +1,115 @@
+.main{
+    display: flex;
+    justify-content: left;
+    height: 100vh;
+  }
+  
+  .blog1{
+    background-color: rgba(57, 84, 52, 0.4) ;
+    margin: 2%;
+    height: fit-content;
+    width: 30%;
+    text-align: center;
+    border-radius: 50px;
+    padding-bottom: 30px;
+  }
+  .Propicture{
+   margin-top: 10%;
+  }
+  .UName{
+    margin-top: 5%;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(200, 198, 181);
+    
+  }
+  .Mypersonal{
+    display: inline-block;
+    width: 500px;
+    text-align: center;
+    margin-top: 60px;
+    background-color: rgba(242, 252, 203, 0.23);
+    border-radius: 40px;
+    font-size: 21px;
+    padding: 10px;
+    
+  }
+  
+  .Sblog2{
+    background-color: rgba(57, 84, 52, 0.4) ;
+    width: 65%;
+    height: 88%;
+    margin: 2%;
+    margin-left: 10px;
+    margin-right: 40px;
+    text-align: center;
+    border-radius: 40px;
+  }
+  .Psecblocg2{
+    display: inline-block;
+    background-color:  rgba(255, 255, 255, 0.85);
+    width: 95%;
+    height: fit-content;
+    margin: 2%;
+    text-align: center;
+    border-radius: 40px;
+    padding-bottom: 70px;
+    overflow-y: auto; /* Enable vertical scrolling */
+    max-height: 750px; /* Set a maximum height for the scrollable area */
+  
+  }
+  .Depersonal{
+    text-align: left;
+    margin: 5%;
+    margin-left: 6%;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+  }
+  .detaill{
+    display: flex;
+    background-color: rgb(234, 229, 223);
+    margin: 30px;
+    padding: 20px;
+    border-radius: 20px;
+  }
+  .butt {     
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;        
+  }
+  .butt:hover  {
+    text-decoration:underline;
+    }
+.klong{
+    background-color: #d3ded0;
+    height: fit-content;
+    width: 95%;
+    text-align: left;
+    margin: 20px;
+    border-radius: 15px;
+}
+.secklong{
+    display: flex;
+    
+}
+.color1{
+    background-color: #fffdfddd;
+    display: inline-block; /* Display as inline block to fit content */
+    padding: 10px 15px;
+    margin-top: 15px;
+    border-radius: 1000px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.Pdetail{
+    display: table-column;
+    text-align: left;
+}
+.Pprice{
+    margin-top: 40px;
+    color: rgb(157, 39, 39);
+    
+}

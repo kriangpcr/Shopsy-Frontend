@@ -1,0 +1,19 @@
+.allproduct img{
+    height: 220px;
+    width: 190px;
+}
+.allproduct .productyoy{
+    border: 1px solid #92a39a;
+    background-color: rgba(198, 216, 206, 0.747);
+    padding: 5px;
+    width: 200px;
+    display: inline-block;
+    margin: 5px;
+}
+.allproduct .nameproduct{
+    height: 80px;
+}
+.allproduct .price1{
+    color: rgb(197, 75, 75);
+    font-size: 30px;
+}

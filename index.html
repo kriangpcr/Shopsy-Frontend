@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopsy</title>
+    <style>
+        #snow {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            pointer-events: none;
+            z-index: 50; /* Snow will be on top */
+        }
+        #root {
+            position: relative; /* Make sure it's positioned */
+            z-index: 0; /* Keep the root behind the snow */
+        }
+    </style>
+</head>
+<body>
+<div id="snow"></div>
+<div id="root">
+    <!-- Your webpage content here -->
+</div>
+<script type="module" src="/src/main.jsx"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function(){
+        var script = document.createElement('script');
+        script.src = 'https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js';
+        script.onload = function(){
+            particlesJS("snow", {
+                "particles": {
+                    "number": {
+                        "value": 100,
+                        "density": {
+                            "enable": true,
+                            "value_area": 800
+                        }
+                    },
+                    "color": {
+                        "value": "#ffffff"
+                    },
+                    "opacity": {
+                        "value": 0.7,
+                        "random": false,
+                        "anim": {
+                            "enable": false
+                        }
+                    },
+                    "size": {
+                        "value": 5,
+                        "random": true,
+                        "anim": {
+                            "enable": false
+                        }
+                    },
+                    "line_linked": {
+                        "enable": false
+                    },
+                    "move": {
+                        "enable": true,
+                        "speed": 1,
+                        "direction": "bottom",
+                        "random": true,
+                        "straight": false,
+                        "out_mode": "out",
+                        "bounce": false,
+                        "attract": {
+                            "enable": true,
+                            "rotateX": 300,
+                            "rotateY": 1200
+                        }
+                    }
+                },
+                "interactivity": {
+                    "events": {
+                        "onhover": {
+                            "enable": false
+                        },
+                        "onclick": {
+                            "enable": false
+                        },
+                        "resize": false
+                    }
+                },
+                "retina_detect": true
+            });
+        }
+        document.head.append(script);
+    });
+</script>
+</body>
+</html>

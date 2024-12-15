@@ -1,0 +1,159 @@
+.main{
+    display: flex;
+    justify-content: left;
+    height: 100vh;
+  }
+  
+  .blog1{
+    background-color: rgba(57, 84, 52, 0.4) ;
+    margin: 2%;
+    height: fit-content;
+    width: 30%;
+    text-align: center;
+    border-radius: 50px;
+    padding-bottom: 30px;
+  }
+  .Propicture{
+   margin-top: 10%;
+  }
+  .UName{
+    margin-top: 5%;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(200, 198, 181);
+    
+  }
+  .Mypersonal{
+    display: inline-block;
+    width: 500px;
+    text-align: center;
+    margin-top: 60px;
+    background-color: rgba(242, 252, 203, 0.23);
+    border-radius: 40px;
+    font-size: 21px;
+    padding: 10px;
+    
+  }
+  
+  .blog2{
+    background-color: rgba(57, 84, 52, 0.4) ;
+    width: 65%;
+    height: fit-content;
+    margin: 2%;
+    margin-left: 10px;
+    margin-right: 40px;
+    text-align: center;
+    border-radius: 40px;
+  }
+  .Esecblocg2{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.85);
+    width: 95%;
+    height: fit-content;
+    margin: 2%;
+    text-align: center;
+    border-radius: 40px;
+    padding-bottom: 50px;
+  }
+  .Depersonal{
+    text-align: left;
+    margin: 5%;
+    margin-left: 6%;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+  }
+  .detaill{
+    display: flex;
+    background-color: rgb(218, 216, 208);
+    margin: 30px;
+    padding: 20px;
+    border-radius: 20px;
+  }
+  .butt {     
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;        
+  }
+  .butt:hover  {
+    text-decoration:underline;
+    }
+    .EditPro {
+        text-align: left;
+        margin: 50px;
+        margin-left: 13%;
+        margin-bottom: 0px;
+    }
+    
+    .editing {
+        display: flex;
+        align-items: center; /* Vertical center alignment */
+    }
+    
+    .ENAme {
+        font-size: 20px;
+    }
+    
+    .name-container {
+        display: flex;
+        flex-direction: column;
+    }
+  
+.upload {
+  width: fit-content;
+  background-color: rgb(52, 138, 38);
+  border: 0;
+  border-radius: .5rem;
+  box-sizing: border-box;
+  color: #ffffff;
+  font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: .875rem;
+  font-weight: 600;
+  line-height: 1.25rem;
+  padding: .75rem 1rem;
+  text-align: center;
+  text-decoration: none #e9ecf1 solid;
+  text-decoration-thickness: auto;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.upload:hover {
+  background-color: rgb(98, 183, 123);
+  color: #000000;
+  transition: 0.2s;
+}
+
+.upload:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.upload:focus-visible {
+  box-shadow: none;
+}
+.inputdetail{
+    display: flex;
+}
+.Fcolumn{
+    
+    margin-left: 14%;
+    padding: 60px;
+   
+}
+.Scolumn{
+    margin-left: 10%;
+    padding: 60px;
+}
+.inName{
+    background-color: rgb(218, 216, 208);
+    height: 50px;
+    width: 160%;
+    border-radius: 20px;
+    border: none;
+}
